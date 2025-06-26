@@ -1,0 +1,1 @@
+export {default as transporter} from "../connections/emailTransporter.js"

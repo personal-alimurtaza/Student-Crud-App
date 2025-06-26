@@ -1,0 +1,47 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "env": "^0.0.2",
+    "express": "^5.1.0",
+    "express-rate-limit": "^6.11.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.14.1",
+    "node-cron": "^4.1.0",
+    "nodemailer": "^7.0.3",
+    "sequelize": "^6.37.7",
+    "stripe": "^18.2.1",
+    "uuid": "^11.1.0",
+    "zod": "^3.25.64"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "imports": {
+    "#models": "./src/exports/modelRoutes.js",
+    "#env": "./env.js",
+    "#server": "./src/server/server.js",
+    "#routes": "./src/exports/routes.js",
+    "#syncRoutes": "./src/server/routes.js",
+    "#middlewares": "./src/exports/middlewares.js",
+    "#helpers": "./src/exports/helpers.js",
+    "#services": "./src/exports/services.js",
+    "#repository": "./src/exports/repository.js",
+    "#constants": "./src/constants/serverResponse.js",
+    "#controllers": "./src/exports/controllers.js",
+    "#connections": "./src/exports/connections.js"
+  }
+}
