@@ -111,7 +111,7 @@ npm start
 # ---------------------------------------------------
 # Name: Ali Murtaza
 # Role: Full Stack Developer
-# Email: your-email@example.com
+# Email: personal.alimurtaza@hotmail.com
 # GitHub: https://github.com/yourusername
 # ---------------------------------------------------
 
